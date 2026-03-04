@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ESP32-C3</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/script.js"></script>
+</head>
+
+<body>
+    <h3>Current time: <span id="status">...</span></h3>
+
+    <!-- <button onclick="setLed(true)">ВКЛЮЧИТЬ</button>
+    <button onclick="setLed(false)">ВЫКЛЮЧИТЬ</button> -->
+    <div class="row">
+        <span class="label">On:</span>
+        <input type="text" id="textInput" placeholder="00:00:00">
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <span class="label">Off:</span>
+        <input type="text" id="textInput2" placeholder="23:59:59">
+    </div>
+    <br>
+    <br>
+    <button onclick="sendText()">Send</button>
+</body>
+</html>
